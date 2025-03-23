@@ -1,0 +1,78 @@
+# Blobs are from samsung/a10kx/a10:11/RP1A.200720.012/A105NKOU5CUL4:user/release-keys, unless otherwise stated.
+
+# Audio
+vendor/lib/hw/audio.primary.exynos7884B.so
+vendor/lib/vndk/libaudioroute.so
+
+# Dap
+vendor/etc/dolby/dax-default.xml
+vendor/lib/soundfx/libswdap.so
+
+# Camera
+vendor/lib/hw/camera.exynos7884B.so
+vendor/lib/libOpenCv.camera.samsung.so
+vendor/lib/libSEF.quram.so
+vendor/lib/libexynoscamera3.so
+vendor/lib/libsaiv_BeautySolutionVideo.so
+vendor/lib/libuniapi.so
+vendor/lib/libuniplugin.so
+vendor/lib/libvideobeauty_interface.so
+
+# Gralloc - From samsung/a20ub/a20:11/RP1A.200720.012/A205GUBU9CUF4:user/release-keys
+vendor/lib/hw/gralloc.exynos7884B.so
+vendor/lib64/hw/gralloc.exynos7884B.so
+
+# HWC - From samsung/a20ub/a20:11/RP1A.200720.012/A205GUBU9CUF4:user/release-keys
+vendor/lib/hw/hwcomposer.exynos7884B.so
+vendor/lib64/hw/hwcomposer.exynos7884B.so
+
+# Sensors
+vendor/etc/yas_set.cfg
+vendor/lib/hw/sensors.universal7884B.so
+vendor/lib/libsensorlistener.so
+vendor/lib/libyasalgo.so
+
+# GPS
+vendor/bin/hw/gpsd
+vendor/bin/hw/vendor.samsung.hardware.gnss@2.0-service
+vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc
+vendor/lib/hw/android.hardware.gnss@2.1-impl.so
+vendor/lib/hw/vendor.samsung.hardware.gnss@2.0-impl.so
+vendor/lib/libwrappergps.so
+
+# Gatekeeper - From samsung/a20ub/a20:11/RP1A.200720.012/A205GUBU9CUF4:user/release-keys
+vendor/lib/hw/gatekeeper.exynos7884B.so
+vendor/lib64/hw/gatekeeper.exynos7884B.so
+
+# Memtrack - From samsung/a20ub/a20:11/RP1A.200720.012/A205GUBU9CUF4:user/release-keys
+vendor/lib/hw/memtrack.exynos7884B.so
+vendor/lib64/hw/memtrack.exynos7884B.so
+
+# Thermal - From samsung/a20ub/a20:11/RP1A.200720.012/A205GUBU9CUF4:user/release-keys
+vendor/lib/hw/thermal.universal7884B.so
+vendor/lib64/hw/thermal.universal7884B.so
+
+# Media
+vendor/etc/mixer_gains.xml
+vendor/etc/mixer_paths.xml
+
+# Firmware
+vendor/firmware/dax_param.bin
+vendor/firmware/fimc_is_lib.bin
+vendor/firmware/fimc_is_rta.bin
+vendor/firmware/mfc_fw.bin
+vendor/firmware/setfile_3l6.bin
+vendor/firmware/setfile_5e9.bin
+
+# Wifi
+vendor/etc/wifi/hydra_config.sdb
+vendor/etc/wifi/indoorchannel.info
+vendor/etc/wifi/mx
+vendor/etc/wifi/mx140.bin
+vendor/etc/wifi/mx140_bt.hcf
+vendor/etc/wifi/mx140_t.bin
+vendor/etc/wifi/mx140_t_wlan.hcf
+vendor/etc/wifi/mx140_t_wlan_t.hcf
+vendor/etc/wifi/mx140_wlan.hcf
+vendor/etc/wifi/mx140_wlan_t.hcf
+vendor/etc/wifi/platform.txt
