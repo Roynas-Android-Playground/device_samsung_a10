@@ -21,6 +21,11 @@ TARGET_SOC := exynos7884B
 # Inherit common board flags
 include device/samsung/exynos7885-common/BoardConfigCommon.mk
 
+# Sensors
+SOONG_CONFIG_NAMESPACES += exynos7885Vars
+SOONG_CONFIG_exynos7885Vars += sensors_use_32bit
+SOONG_CONFIG_exynos7885Vars_sensors_use_32bit := true
+
 # SPL
 VENDOR_SECURITY_PATCH := 2021-12-01
 
