@@ -1,8 +1,9 @@
-# Blobs are from samsung/a10kx/a10:11/RP1A.200720.012/A105NKOU5CUL4:user/release-keys, unless otherwise stated.
+# Blobs are from samsung/a10xx/a10:11/RP1A.200720.012/A105FNXXS9CWB2:user/release-keys, unless otherwise stated.
 
 # Audio
 vendor/lib/hw/audio.primary.exynos7884B.so
 vendor/lib/vndk/libaudioroute.so
+vendor/lib/lib_SamsungRec_07010.so
 
 # Dap
 vendor/etc/dolby/dax-default.xml
@@ -13,42 +14,37 @@ vendor/lib/hw/camera.exynos7884B.so
 vendor/lib/libOpenCv.camera.samsung.so
 vendor/lib/libSEF.quram.so
 vendor/lib/libexynoscamera3.so
-vendor/lib/libsaiv_BeautySolutionVideo.so
 vendor/lib/libuniapi.so
 vendor/lib/libuniplugin.so
-vendor/lib/libvideobeauty_interface.so
 
-# Gralloc - From samsung/a20ub/a20:11/RP1A.200720.012/A205GUBU9CUF4:user/release-keys
+# Gralloc - From A205FNXXSBCWC3
 vendor/lib/hw/gralloc.exynos7884B.so
 vendor/lib64/hw/gralloc.exynos7884B.so
 
-# HWC - From samsung/a20ub/a20:11/RP1A.200720.012/A205GUBU9CUF4:user/release-keys
+# HWC - From A205FNXXSBCWC3
 vendor/lib/hw/hwcomposer.exynos7884B.so
 vendor/lib64/hw/hwcomposer.exynos7884B.so
 
 # Sensors
-vendor/etc/yas_set.cfg
 vendor/lib/hw/sensors.universal7884B.so
-vendor/lib/libsensorlistener.so
-vendor/lib/libyasalgo.so
 
-# GPS
+# GPS - From A205FNXXSBCWC3
 vendor/bin/hw/gpsd
 vendor/bin/hw/vendor.samsung.hardware.gnss@2.0-service
 vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc
-vendor/lib/hw/android.hardware.gnss@2.1-impl.so
-vendor/lib/hw/vendor.samsung.hardware.gnss@2.0-impl.so
-vendor/lib/libwrappergps.so
+vendor/lib64/hw/android.hardware.gnss@2.1-impl.so
+vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
+vendor/lib64/libwrappergps.so
 
-# Gatekeeper - From samsung/a20ub/a20:11/RP1A.200720.012/A205GUBU9CUF4:user/release-keys
+# Gatekeeper - From A205FNXXSBCWC3
 vendor/lib/hw/gatekeeper.exynos7884B.so
 vendor/lib64/hw/gatekeeper.exynos7884B.so
 
-# Memtrack - From samsung/a20ub/a20:11/RP1A.200720.012/A205GUBU9CUF4:user/release-keys
+# Memtrack - From A205FNXXSBCWC3
 vendor/lib/hw/memtrack.exynos7884B.so
 vendor/lib64/hw/memtrack.exynos7884B.so
 
-# Thermal - From samsung/a20ub/a20:11/RP1A.200720.012/A205GUBU9CUF4:user/release-keys
+# Thermal - From A205FNXXSBCWC3
 vendor/lib/hw/thermal.universal7884B.so
 vendor/lib64/hw/thermal.universal7884B.so
 
@@ -64,8 +60,14 @@ vendor/firmware/mfc_fw.bin
 vendor/firmware/setfile_3l6.bin
 vendor/firmware/setfile_5e9.bin
 
+# NFC firmware
+vendor/etc/nfc/sec_s3nrn82_rfreg.bin
+vendor/firmware/nfc/sec_s3nrn82_firmware.bin
+
+# NFC configs
+vendor/etc/libnfc-sec-vendor.conf
+
 # Wifi
-vendor/etc/wifi/hydra_config.sdb
 vendor/etc/wifi/indoorchannel.info
 vendor/etc/wifi/mx
 vendor/etc/wifi/mx140.bin
@@ -76,3 +78,6 @@ vendor/etc/wifi/mx140_t_wlan_t.hcf
 vendor/etc/wifi/mx140_wlan.hcf
 vendor/etc/wifi/mx140_wlan_t.hcf
 vendor/etc/wifi/platform.txt
+
+# TEE firmware
+vendor/tee/driver/00000000-0000-0000-0000-545241545453
