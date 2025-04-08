@@ -26,7 +26,7 @@ vendor/lib/hw/hwcomposer.exynos7884B.so
 vendor/lib64/hw/hwcomposer.exynos7884B.so
 
 # Sensors
-vendor/lib/hw/sensors.universal7884B.so
+vendor/lib/hw/sensors.universal7884B.so:vendor/lib/hw/sensors.exynos7884B.so
 
 # GPS - From A205FNXXSBCWC3
 vendor/bin/hw/gpsd
@@ -45,8 +45,8 @@ vendor/lib/hw/memtrack.exynos7884B.so
 vendor/lib64/hw/memtrack.exynos7884B.so
 
 # Thermal - From A205FNXXSBCWC3
-vendor/lib/hw/thermal.universal7884B.so
-vendor/lib64/hw/thermal.universal7884B.so
+vendor/lib/hw/thermal.universal7884B.so:vendor/lib/hw/thermal.exynos7884B.so
+vendor/lib64/hw/thermal.universal7884B.so:vendor/lib64/hw/thermal.exynos7884B.so
 
 # Media
 vendor/etc/mixer_gains.xml
