@@ -20,6 +20,8 @@ PRODUCT_MODEL := SM-A105F
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 
+PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="a10xx-user 11 RP1A.200720.012 A105FNXXS9CWB2 release-keys" \
     BuildFingerprint=samsung/a10xx/a10:11/RP1A.200720.012/A105FNXXS9CWB2:user/release-keys
