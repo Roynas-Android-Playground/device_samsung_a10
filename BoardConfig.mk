@@ -1,14 +1,17 @@
 DEVICE_PATH := device/samsung/a10
 
+# Inherit common board flags
+include device/samsung/exynos7885-common/BoardConfigCommon.mk
+
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := a10,a10dd
+
+# Display
+TARGET_SCREEN_DENSITY := 280
 
 # Kernel
 TARGET_KERNEL_CONFIG := exynos7885_defconfig
 TARGET_KERNEL_CONFIG += a10.config
-
-# Display
-TARGET_SCREEN_DENSITY := 280
 
 # Partitions
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 55574528 # 55MB
@@ -18,9 +21,6 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 394264576
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
-
-# Inherit common board flags
-include device/samsung/exynos7885-common/BoardConfigCommon.mk
 
 # Sensors
 SOONG_CONFIG_NAMESPACES += exynos7885Vars
