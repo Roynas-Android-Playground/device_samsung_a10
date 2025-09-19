@@ -19,8 +19,8 @@ vendor/lib/libuniplugin.so
 vendor/lib/hw/sensors.universal7884B.so:vendor/lib/hw/sensors.exynos7884B.so
 
 # Gatekeeper - From A205FNXXSBCWC3
-vendor/lib/hw/gatekeeper.exynos7884B.so
-vendor/lib64/hw/gatekeeper.exynos7884B.so
+vendor/lib/hw/gatekeeper.exynos7884B.so|4a567130a65d48c2cd6e40ae7bd045434c706520
+vendor/lib64/hw/gatekeeper.exynos7884B.so|e5ba37fe16acd3425d378f3e8921be260e5a5416
 
 # Media
 vendor/etc/mixer_gains.xml
